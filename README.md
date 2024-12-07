@@ -6,6 +6,8 @@ rerepository: https://github.com/sleepingeraser/KsMusicCafe.git
 
 koyuki's site: https://sleepingeraser.github.io/KsMusicCafe/home.html
 
+figma link: https://www.figma.com/board/CAaalcPe0JhNDdcNq0Ob2U/Ang-Bi-Jun's-Project-Journal?node-id=6-6621&t=mlN1bFrgfm1KoBt3-1
+
 ## Design Process
 
 ### Target Audience
