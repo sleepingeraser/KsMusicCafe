@@ -42,12 +42,36 @@ As part of the design process, the following resources were created to visualize
 
 1. Wireframes:
 
-- PDF: [wirefirme-pdf](prototype/pdf-file/HiFi.pdf)
-- XD: [wirefram-xd](prototype/XD-file/HiFi.xd)
+   - PDF: [wirefirme-pdf](prototype/pdf-file/HiFi.pdf)
+   - XD: [wirefram-xd](prototype/XD-file/HiFi.xd)
 
 2. Mockups:
-
-- PDF: [mockup-pdf](prototype/pdf-file/MockUp.pdf)
-- XD: [mockup-xd](prototype/XD-file/MockUp.xd)
+   - PDF: [mockup-pdf](prototype/pdf-file/MockUp.pdf)
+   - XD: [mockup-xd](prototype/XD-file/MockUp.xd)
 
 ### Features
+
+#### Existing Features
+
+Feature 1: Responsive Design
+
+- ensures the website is fully functional & visually appealing on all device types
+
+Feature 2: User Authentication
+
+- allows users to create an account & log in securely by providing their email & password
+
+Feature 3: Interactive Forms
+
+- allows users to submit information/feedback through dynamic forms with real-time input validation
+
+#### Features Left to Implement
+
+Feature 1: Adding a "More Review" button
+
+- allows users to read more instead of the main 6 reviews
+
+### Technologies Used
+
+- kaggle [kaggle](https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews
+ )
