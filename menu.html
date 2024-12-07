@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KS Café Studio</title>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- cdn icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">KS Café Studio</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reservations.html">RESERVATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html">LOCATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">SIGN UP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="menu">
+        <div class="just-menu">
+          <h2>menu</h2>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="menu-container">
+        <section class="menu-header">
+          <h2>Our Menu</h2>
+        </section>
+
+        <section class="menu-category">
+          <h3>Drinks</h3>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <img
+                src="photos/blueOceanCocktail.jpg"
+                alt="blue ocean cocktail"
+              />
+              <h4>Cocktails</h4>
+              <p>many flavours to choose from, such as Blue Ocean</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/galaxyLemonade.jpg" alt="galaxy lemonade" />
+              <h4>Galaxy Lemonade</h4>
+              <p>one and only lemonade we have</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/milkShake.jpg" alt="milk shake" />
+              <h4>Milk Shake</h4>
+              <p>
+                many flavours to choose, such as oreo, chocolate and caramel
+              </p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/blackTea.jpg" alt="blackTea" />
+              <h4>Black Tea</h4>
+              <p>hot black tea for you, unlimited refill</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/lycheeSoda.jpg" alt="lycheeSoda" />
+              <h4>Sodas</h4>
+              <p>many flavours to choose from, such as Lychee</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/lemonTea.jpg" alt="lemonTea" />
+              <h4>Lemon Tea</h4>
+              <p>---</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/hotCocoa.jpg" alt="hotCocoa" />
+              <h4>Hot Cocoa</h4>
+              <p>able to add as many mashmallow as you want</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/latte.jpg" alt="latte" />
+              <h4>Latte</h4>
+              <p>---</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="menu-category">
+          <h3>Snacks</h3>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <img src="photos/marshmallows.jpg" alt="marshmallows" />
+              <h4>Marshmallows</h4>
+              <p>comes with different sizes and shapes</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/donuts.jpg" alt="donuts" />
+              <h4>Donuts</h4>
+              <p>many different flavours to choose from</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/chipsSticks.jpg" alt="chipsSticks" />
+              <h4>Chip Sticks</h4>
+              <p>get 5 free 1</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/cookies.jpg" alt="cookies" />
+              <h4>Cookies</h4>
+              <p>black and white flavoured</p>
+              <p>other flavours to choose</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/oreo.jpg" alt="oreo" />
+              <h4>Oreo</h4>
+              <p>different flavours will be served</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/frenchToast.jpg" alt="frenchToast" />
+              <h4>French Toast</h4>
+              <p>self-made toast</p>
+              <p>ingredients are transported form French</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/croissants.jpg" alt="croissants" />
+              <h4>Croissants</h4>
+              <p>chocoloate flavoured</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/croissanwiches.jpg" alt="croissanwiches" />
+              <h4>Croissanwiches</h4>
+              <p>sandwiches made with croissant</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="menu-category">
+          <h3>Desserts</h3>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <img src="photos/crepes.jpg" alt="crepes" />
+              <h4>Crepes</h4>
+              <p>many flavours to chose from</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/mochi.png" alt="mochi" />
+              <h4>Mochis</h4>
+              <p>3 different flavours to choose from</p>
+              <p>can order a set</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/iceCream.jpg" alt="iceCream" />
+              <h4>Ice Creams</h4>
+              <p>many flavours to chose from</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/iceCreamWaffle.jpg" alt="iceCreamWaffle" />
+              <h4>Ice Cream Waffle</h4>
+              <p>chooseable ice cream flavours with different toppings</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/fruitPancake.jpg" alt="fruitPancake" />
+              <h4>Fruit Pancake</h4>
+              <p>many different toppings available for you to add</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/macaroons.jpg" alt="macaroons" />
+              <h4>Macaroons</h4>
+              <p>many flavours to chose from</p>
+            </div>
+
+            <div class="menu-item">
+              <img
+                src="photos/chocolateIcingCake.jpg"
+                alt="chocolateIcingCake"
+              />
+              <h4>Icing Cake</h4>
+              <p>many different flavoured cakes to choose from</p>
+            </div>
+
+            <div class="menu-item">
+              <img src="photos/cupcakes.jpg" alt="cupcakes" />
+              <h4>Cupcakes</h4>
+              <p>many different flavoured cakes to choose from</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <hr />
+
+      <section class="reviews">
+        <div class="container">
+          <h3>Customer Reviews</h3>
+          <div class="reviews-carousel">
+            <div class="review">
+              <h4>Haruka Kaguya</h4>
+              <p>
+                "The studio is extremely big & is soundproof! Recommend all
+                bands!"
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="review">
+              <h4>Astra</h4>
+              <p>"The food was amazing! I'll definitely come back."</p>
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="review">
+              <h4>Uta</h4>
+              <p>
+                Great studio! It's soundproof! Our band, Eternity, loves the
+                food too!"
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="review">
+              <h4>Miyuki</h4>
+              <p>
+                "Great atmosphere & delicious desserts. My brother & I will come
+                often!"
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="review">
+              <h4>Haruka Kaguya</h4>
+              <p>
+                "Come back again to try out the food! It's very delicious! I'll
+                come aagin to eat crepes"
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="review">
+              <h4>Izanami</h4>
+              <p>
+                "Enviroment are spacious unlike other cafes. Food are nice.
+                There's even a band, Eternity, performing for us."
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="reviews-btn">
+            <button type="button" id="loadMoreReviews" class="btn btn-primary">
+              More reviews
+            </button>
+          </div>
+          <div
+            id="additionalReviews"
+            class="additional-reviews grid-container"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center">
+      <section class="policy">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-4">
+            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <a href="contact.html">Contact Info</a>
+              </h6>
+              <p><a href="#!">+65 8766 0618</a></p>
+              <p><a href="#!">kscafestudio@gmail.com</a></p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Support</h6>
+              <p><a href="contact.html">Contact Us</a></p>
+              <p><a href="#!">FAQ</a></p>
+              <p><a href="#!">Membership</a></p>
+              <p><a href="#!">Check My Reservation</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <a href="locations.html">Locations</a>
+              </h6>
+              <p><a href="#!">Jurong East, WestGate</a></p>
+              <p><a href="#!">Chinatown Point</a></p>
+              <p><a href="#!">Bishan Junction 8</a></p>
+              <p><a href="#!">Bugis+</a></p>
+              <p><a href="#!">Jewel, Changi Airport</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Follow Us On</h6>
+              <h4>
+                <a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#!"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#!"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#!"><i class="fa-brands fa-twitter"></i></a>
+              </h4>
+              <br /><br />
+              <h6 class="text-uppercase fw-bold mb-4">Business Hours</h6>
+              <p>10am-6am</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="conatiner">
+        <div class="copyright">
+          <p>&copy 2005 KS Café Studio</p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JS -->
+    <script src="js/menu.js"></script>
+
+    <script>
+      AOS.init({
+        disable: "phone",
+        duration: 1200,
+      });
+    </script>
+  </body>
+</html>
