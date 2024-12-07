@@ -264,7 +264,7 @@ fieldset {
 }
 
 .banner {
-  background-image: url("../photos/homeHeader.jpg");
+  background-image: url("/photos/homeHeader.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -300,7 +300,7 @@ fieldset {
 }
 
 .menu {
-  background-image: url("../photos/menu.jpg");
+  background-image: url("/photos/menu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
