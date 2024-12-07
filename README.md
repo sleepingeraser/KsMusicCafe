@@ -2,7 +2,7 @@
 
 ## links
 
-: https://github.com/sleepingeraser/KsMusicCafe.git
+rerepository: https://github.com/sleepingeraser/KsMusicCafe.git
 
 koyuki's site: https://sleepingeraser.github.io/KsMusicCafe/home.html
 
