@@ -42,7 +42,9 @@ As part of the design process, the following resources were created to visualize
 
 1. Wireframes:
 
-- PDF: [text](mockup/HiFi.pdf)
-- XD file: https://xd.adobe.com/view/7c267a75-6076-4584-898f-35218235fa2e-2975/
+- PDF: [wirefirme-pdf](XD/HiFi.pdf)
+- Adobe XD file: [XD file](XD/HiFi.xd)
 
 2. Mockups:
+- PDF: [mo](XD/MockUp.pdf)
+- Adobe XD Share Link: https://xd.adobe.com/view/fbe54761-a244-4133-a981-5cee6798949e-aeb6/?fullscreen
