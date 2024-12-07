@@ -1040,6 +1040,10 @@ footer .copyright p {
   }
 
   /* menu */
+  .menu-header {
+    margin: 50px;
+  }
+
   .menu-category {
     margin: 40px 40px;
     text-align: center;
