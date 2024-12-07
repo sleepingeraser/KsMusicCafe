@@ -73,11 +73,11 @@ Feature 1: Adding a "More Review" button
 
 ## Technologies Used
 
-- kaggle (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
+- [kaggle] (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
 
   - uses kaggle to get more reviews
 
-- onemap (https://www.onemap.gov.sg/apidocs/apidocs)
+- [onemap] (https://www.onemap.gov.sg/apidocs/apidocs)
   - use onemap to get a live map that can be dragged around & zoomed in
 
 ## Testing
@@ -113,8 +113,12 @@ Feature 1: Adding a "More Review" button
 
 ### Content
 
-- The reviews was copied from Kaggle (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
+- The reviews was copied from [Kaggle] (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
 
 ### Media
 
-- The photos used in this site were obtained from Google & Unsplash (https://unsplash.com/)
+- The photos used in this site were obtained from [Google] (https://www.google.com/) & [Unsplash] (https://unsplash.com/)
+
+### Acknoedgements
+
+- I recieved inspiration for this project from my ITE project
