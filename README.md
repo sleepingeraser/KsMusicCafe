@@ -49,9 +49,9 @@ As part of the design process, the following resources were created to visualize
    - PDF: [mockup-pdf](prototype/pdf-file/MockUp.pdf)
    - XD: [mockup-xd](prototype/XD-file/MockUp.xd)
 
-### Features
+## Features
 
-#### Existing Features
+### Existing Features
 
 Feature 1: Responsive Design
 
@@ -65,13 +65,56 @@ Feature 3: Interactive Forms
 
 - allows users to submit information/feedback through dynamic forms with real-time input validation
 
-#### Features Left to Implement
+### Features Left to Implement
 
 Feature 1: Adding a "More Review" button
 
 - allows users to read more instead of the main 6 reviews
 
-### Technologies Used
+## Technologies Used
 
-- kaggle [kaggle](https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews
- )
+- kaggle (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
+
+  - uses kaggle to get more reviews
+
+- onemap (https://www.onemap.gov.sg/apidocs/apidocs)
+  - use onemap to get a live map that can be dragged around & zoomed in
+
+## Testing
+
+### form testing
+
+1. Reservation form:
+   i. go to the "reservation" page
+   ii. go to the "reserse a table" page
+   iii. try to submit the empty form & verify that an error message about the required fields appears
+   iv. try to submit the form with an invalid email address & verify that a relevant error message appears
+   v. try to submit the form with all inputs valid and verify that a success message appears
+   vi. go to the "book a studio" page
+   vii. repeat steps iii. to v.
+
+2. Contact form:
+   i. go to the "Contact Us" page
+   ii. try to submit the empty form & verify that an error message about the required fields appears
+   iii. try to submit the form with an invalid email address & verify that a relevant error message appears
+   iv. try to submit the form with all inputs valid and verify that a success message appears.
+
+### bugs
+
+1. About page
+
+   - the "Learn more" buttons don't work bcs there is no extra infos
+
+2. Signup/login form
+   - could not click onto the sign up & login button
+   - google, facebook, apple signup/logi don't work either
+
+## Credits
+
+### Content
+
+- The reviews was copied from Kaggle (https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews)
+
+### Media
+
+- The photos used in this site were obtained from Google & Unsplash (https://unsplash.com/)
