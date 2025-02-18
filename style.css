@@ -322,7 +322,7 @@ body {
 }
 
 .table-img {
-  background-image: url("/photos/table.jpg");
+  background-image: url("../photos/table.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -337,7 +337,7 @@ body {
 }
 
 .studio-img {
-  background-image: url("/photos/studio.jpg");
+  background-image: url("../photos/studio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -531,12 +531,6 @@ body {
 
 .reviews-btn {
   margin: 25px 0;
-}
-
-/*reservations */
-.table-img,
-.studio-img {
-  width: 75%;
 }
 
 /* booking */
